@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    font-family: 'Anton', sans-serif;
+}
+
+/*home section design*/
+
+.home-content {
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/image1.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.home-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.home-content .btn {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #222;
+    border-radius: 0;
+    padding: 1rem 2rem;
+}
+
+.home-content .btn:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+/*overview section design*/
+.overview {
+    padding: 3rem 0;
+    background-color: #222;
+
+}
+
+.overview-content h3 {
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 13px;
+}
+
+.overview-content .row .col-md-4 {
+    height: 300px;
+}
+
+.overview-content .row .col-md-4.first {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./assets/image2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.overview-content .row .col-md-4.middle {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./assets/image3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.overview-content .row .col-md-4.second {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./assets/image4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*about section design*/
+
+.about-content {
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./assets/image3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.about-content h2 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.about-text {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+/*products section design*/
+
+.products-content .col-md-3 {
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./assets/image4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*contact section design*/
+
+.contact-content {
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./assets/image3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-content h2 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.contact-form .form-control {
+    border: 1px solid #444;
+    border-radius: 0;
+}
+
+::placeholder {
+    font-size: 13px;
+}
+
+.contact-form .btn {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #222;
+    border-radius: 0;
+    padding: 1rem 2rem;
+}
+
+.contact-form .btn:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+/*page not found design*/
+
+.page {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
